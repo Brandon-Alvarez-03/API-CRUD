@@ -1,0 +1,26 @@
+{
+  "name": "api-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "db:seed": "node seed/data.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brandon-Alvarez-03/API-CRUD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brandon-Alvarez-03/API-CRUD/issues"
+  },
+  "homepage": "https://github.com/Brandon-Alvarez-03/API-CRUD#readme",
+  "type": "module",
+  "dependencies": {
+    "mongoose": "^6.6.5"
+  }
+}
